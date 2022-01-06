@@ -10,33 +10,83 @@
 
 #### Step 01
 
-In the package `lab10.part_a.examples` look at the file `Example01_TaxTotal` and write comments for each line of code. When complete review with instructor.
+In the package `lab10.part_a.examples` look at the file `Example01_Indexing` and write comments for each line of code. When complete review with instructor.
 
 #### Step 02
 
-In the package `labs.lab10.part_a.activity` complete the `Activity01_TaxTipTotal` per the following:
+In the package `labs.lab10.part_a.activity` complete the `Activity01_Indexing` per the following:
 
-    Caculate what eight different people owe for a food bill after tax and tip
-    Utilize 5% for tax and 15% for tip
-    Below is what each person owes for their individual meal:
+        Utilizing index on the pre-defined String, start at the first e and locate the index of the very next e.
 
-        Person 1: $10
-        Person 2: $12
-        Person 3: $9
-        Person 4: $8
-        Person 5: $7
-        Person 6: $15
-        Person 7: $11
-        Person 8: $30
+Your program is working correctly, if when run, the following is the output (Abe first name Lincoln last name):
+```
+10
+```
+
+> Use Example01_IndexOf for reference.
+
+### Example and Activity 02
+
+#### Step 01
+
+In the package `lab11.part_a.examples` look at the file `Example02_Concatenate` and write comments for each line of code. When complete review with instructor.
+
+#### Step 02
+
+In the package `labs.lab11.part_a.activity` complete the `Activity02_Concatenate` per the following:
+
+    Create two different variables that hold text - a first name and a last name
+    Create a third variable that combines both of the variables
+    Print out the variable that contains the concatenation 
 
 Your program is working correctly, if when run, the following is the output:
-Note that the sample below only shows the first 2 people, please solve for all 8.
 ```
-Person 1: 12.0
-Person 2: 14.4
+Abe Lincoln
 ```
 
-> Use Example01_Tax for reference.
+> Use Example02_Concatenate for reference.
+
+
+### Example and Activity 03
+
+#### Step 01
+
+In the package `lab11.part_a.examples` look at the file `Example03_Replace` and write comments for each line of code. When complete review with instructor.
+
+#### Step 02
+
+In the package `labs.lab11.part_a.activity` complete the `Activity03_Replace` per the following:
+
+    Utilizing the built in replace method, create a new String that holds an updated version of the sentence
+    with every lowercase r transformed into uppercase. Print out this new string.
+
+Your program is working correctly, if when run, the following is the output:
+```
+Using StRing Replace to Replace chaRacteR
+```
+
+> Use Example03_Replace for reference.
+
+### Example and Activity 04
+
+#### Step 01
+
+In the package `lab11.part_a.examples` look at the file `Example04_Extraction` and write comments for each line of code. When complete review with instructor.
+
+#### Step 02
+
+In the package `labs.lab11.part_a.activity` complete the `Activity04_Extraction` per the following:
+
+    Utilizing the built in substring method on the predefined String, print out the results to satisfy the example below
+
+Your program is working correctly, if when run, the following is the output:
+```
+Learn
+g Ja
+g Java is a good time!
+```
+
+> Use Example04_Extraction for reference.
 
 ## Part B
 
@@ -44,20 +94,63 @@ Person 2: 14.4
 
 #### Step 01
 
-In the package `lab15.part_b.examples` look at the file `Example01_ExplicitImport` and write comments for each line of code. When complete review with instructor.
+In the package `lab11.part_b.examples` look at the file `Example01_MathSquareRoot` and write comments for each line of code. When complete review with instructor.
 
 #### Step 02
 
-In the package `labs.lab15.part_b.activity` complete the `Activity01_ExplicitImport` per the following:
+In the package `labs.lab11.part_b.activity` complete the `Activity01_Radius` per the following:
 
-    Create a scanner that asks the user a question and stores it
-    Once it runs properly, try deleting the import statement at the top - what happens?
+    Ask a user to enter the radius, save this input accordingly as the radius
+    Create a variable called area that calculates the area using the user's input for the radius (HINT: use a formula)
+    Print to the console "The area of circle is: " and the variable area
 
 Your program is working correctly, if when run, the following is the output:
 ```
-Hello user, please enter your first name!
-Gio
-Using the scanner, I was able to store your name. I see your name is Gio
+Enter the radius: 25
+The area of circle is: 1963.25
 ```
 
-> Use Example01_ExplicitImport for reference.
+> Use Example01_MathSquareRoot for reference.
+
+### Example and Activity 02
+
+#### Step 01
+
+In the package `lab11.part_b.examples` look at the file `Example02_Minimum` and write comments for each line of code. When complete review with instructor.
+
+#### Step 02
+
+In the package `labs.lab11.part_b.activity` complete the `Activity02_Maximum` per the following:
+
+    Utilize the built in math function to find the maximum between two numbers
+    Print out this result
+
+Your program is working correctly, if when run, the following is the output:
+```
+Maximum number of 12 and 20 is: 20
+```
+
+> Use Example02_Minimum for reference.
+
+### Example and Activity 03
+
+#### Step 01
+
+In the package `lab11.part_b.examples` look at the file `Example02_Minimum` and write comments for each line of code. When complete review with instructor.
+
+#### Step 02
+
+In the package `labs.lab11.part_b.activity` complete the `Activity03_AbsoluteValue` per the following:
+
+    Sum the pre defined variables inside of the class
+    Utilizing the built in absolute value method, print out the absolute value of the sum
+
+Your program is working correctly, if when run, the following is the output:
+```
+225
+```
+
+> Use Example02_Minimum for reference.
+
+
+## Part C
