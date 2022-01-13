@@ -154,3 +154,11 @@ Your program is working correctly, if when run, the following is the output:
 
 
 ## Part C
+
+In this part of the lab you will complete `KeypadConversion`, the objective of your program should be to ask a user for a message and display that message as a series of key presses on a telephone keypad, seen here (https://en.wikipedia.org/wiki/Telephone_keypad)
+
+Ex1: Input = b then output = 22
+
+Ex2: Input = y then output = 999
+
+Ex3: Input = abc then output = 222222
